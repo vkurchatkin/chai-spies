@@ -86,8 +86,8 @@ spy.should.be.spy;
 Assert that a spy has been called. Negation passes through.
 
 ```js
-expect(spy).to.have.been.called;
-spy.should.have.been.called;
+expect(spy).to.have.been.called();
+spy.should.have.been.called();
 ```
 
 #### .not_called
